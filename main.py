@@ -33,7 +33,9 @@ def run():
         if snake.hit_wall() or snake.hit_tail():
             score.reset()
             snake.reset()
+            game_is_on=False
+
 run()
-screen.exitonclick()
+
 
 
